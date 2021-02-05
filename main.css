@@ -344,7 +344,7 @@ strong {
         grid-row-gap: 6rem;
         padding: 50px 20px;
     }
-    
+
     .container-intro {
         margin: 20px;
         padding: 0;
@@ -483,50 +483,6 @@ nav {
 
 /* Animations keyframes */
 
-/* Slide in left */
-
-@-webkit-keyframes slideInLeft {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes slideInLeft {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes slideInLeft {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes slideInLeft {
-    0% {
-        transform: translateX(-100%);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-}
-
-/* Slide in left END */
-
 /* Slide in down */
 
 @-webkit-keyframes slideInDown {
@@ -570,50 +526,6 @@ nav {
 }
 
 /* Slide in down END */
-
-/* Opacity up */
-
-@-webkit-keyframes opacityUp {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes opacityUp {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes opacityUp {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes opacityUp {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-/* Opacity up END */
 
 /* Animations keyframes END */
 
@@ -664,4 +576,11 @@ nav {
     left: 0;
     top: 0;
     z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #video-top {
+        left: 0;
+    }
 }
