@@ -581,6 +581,6 @@ nav {
 @media only screen and (max-width: 768px) {
 
     #video-top {
-        left: 0;
+        margin-left: -200vw;
     }
 }
