@@ -135,6 +135,7 @@ html {
 body {
     background-color: #F3A74A;
     margin: 0;
+    width: 100%
 }
 
 /* Hide/show desktop/mobile */
@@ -223,7 +224,7 @@ ul li,
 ol li {
     list-style-position: outside;
     font-family: 'Noto Sans JP', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.4em;
     margin-left: 20px;
     margin-bottom: .5em;
@@ -295,7 +296,7 @@ strong {
 .container-intro {
     text-align: center;
     padding: 20px;
-    margin: auto 5% 50px;
+    margin: auto 5rem 50px;
 }
 
 .box-main-left1 {
@@ -406,7 +407,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
     animation: 1s ease-out 0s 1 slideInDown;
     z-index: 1;
     box-shadow: 0px 2px 10px #1d080869;
@@ -417,7 +417,6 @@ nav {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 40px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -579,7 +578,6 @@ nav {
 }
 
 @media only screen and (max-width: 768px) {
-
     #video-top {
         margin-left: -200vw;
     }
