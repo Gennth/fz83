@@ -133,7 +133,6 @@ html {
 }
 
 body {
-    background-color: #F3A74A;
     margin: 0;
     width: 100%
 }
@@ -290,7 +289,8 @@ strong {
     grid-row-gap: 12rem;
     grid-column-gap: 40px;
     padding: 100px 20px 50px;
-    background-color: #F3A74A;
+    background: #F3A74A;
+    background: linear-gradient(300deg, rgba(255, 55, 61, 1) 0%, #F3A74A 60%);
 }
 
 .container-intro {
