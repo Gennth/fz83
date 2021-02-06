@@ -553,7 +553,7 @@ nav {
     transition: .2s ease-in-out;
     color: #161413;
     display: inline-block;
-    margin: 3rem .5rem 1rem .5rem;
+    margin: 20px auto;
 }
 
 .fa-facebook:hover {
